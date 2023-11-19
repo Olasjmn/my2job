@@ -1,0 +1,93 @@
+body {
+font-family: 'Manrope', sans-serif;
+
+}
+
+.container {
+width: 1400px;
+margin: 0 auto;
+box-sizing: border-box;
+
+
+}
+
+h1 {
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: -1.8px;
+width: 956px;
+height: 120px;
+text-align: left;
+margin-bottom: 30px;
+margin: 0 319px 30px 125px;
+}
+
+
+
+.company-description {
+width: 1150px;
+height: 500px;
+background: url(../img/gray-chair.png) center no-repeat;
+text-align: center;
+margin-bottom: 150px;
+margin: 0 125px 150px 125px;}
+
+
+.company-description p {
+width: 430px;
+height: 81px;
+color: #FFF;
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+padding: 379px 680px 40px 40px;
+text-align: left;
+margin: 0 auto;
+}
+
+span {
+font-size: 18px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.54px;
+width: 51px;
+height: 25px;
+text-align: left;
+margin-bottom: 30px;
+margin: 0 1224px 30px 125px;
+}
+
+
+.onas {
+font-size: 45px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.35px;
+width: 1048px;
+height: 366px;
+margin-bottom: 30px;
+text-align: left;
+margin: 0 224px 30px 128px;
+
+
+}
+
+.view-services {
+font-family: 'Manrope', sans-serif;
+display: block;
+padding: 20px 40px;
+border-radius: 10px;
+background: var(--Accent, #AD1818);
+text-decoration: none;
+width: 175px;
+height: 27px;
+font-size: 20px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: -0.6px;
+text-align: center;
+color: white;
+margin: 0 1020px 150px 125px;
+}

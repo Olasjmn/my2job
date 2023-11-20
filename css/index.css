@@ -1,15 +1,14 @@
 body {
 font-family: 'Manrope', sans-serif;
-
 }
+
+
 
 .container {
-width: 1400px;
+max-width: 1180px;
 margin: 0 auto;
-box-sizing: border-box;
-
-
-}
+padding: 0 15px;
+box-sizing: border-box;}
 
 h1 {
 font-size: 60px;
@@ -17,37 +16,24 @@ font-weight: 400;
 line-height: 60px;
 letter-spacing: -1.8px;
 width: 956px;
-height: 120px;
-text-align: left;
-margin-bottom: 30px;
-margin: 0 319px 30px 125px;
-}
-
-
+margin: 0 319px 0px 0px;}
 
 .company-description {
-width: 1150px;
 height: 500px;
 background: url(../img/gray-chair.png) center no-repeat;
-text-align: center;
-margin-bottom: 150px;
-margin: 0 125px 150px 125px;}
-
+margin: 30px 0px 150px 0px;}
 
 .company-description p {
 width: 430px;
-height: 81px;
 color: #FFF;
 font-size: 20px;
 font-weight: 400;
-line-height: normal;
 letter-spacing: -0.6px;
 padding: 379px 680px 40px 40px;
 text-align: left;
-margin: 0 auto;
-}
+margin: 0 auto;}
 
-span {
+h2 {
 font-size: 18px;
 font-weight: 400;
 line-height: normal;
@@ -55,10 +41,7 @@ letter-spacing: -0.54px;
 width: 51px;
 height: 25px;
 text-align: left;
-margin-bottom: 30px;
-margin: 0 1224px 30px 125px;
-}
-
+margin: 0 1224px 30px 0px;}
 
 .onas {
 font-size: 45px;
@@ -69,10 +52,8 @@ width: 1048px;
 height: 366px;
 margin-bottom: 30px;
 text-align: left;
-margin: 0 224px 30px 128px;
-
-
-}
+margin: 0 224px 30px 0px;
+margin-bottom: 30px;}
 
 .view-services {
 font-family: 'Manrope', sans-serif;
@@ -89,5 +70,42 @@ line-height: 27px;
 letter-spacing: -0.6px;
 text-align: center;
 color: white;
-margin: 0 1020px 150px 125px;
+margin: 0 1020px 0px 0px;}
+
+
+.choose-project {
+margin-top: 150px;
 }
+
+
+
+.modul {
+display: block;
+width: 1150px;
+height: 548px;
+margin: 0px 1146px 90px 0px ;}
+
+.modul__image {
+display: block;
+width: 1150px;
+height: 450px;
+margin-top: 30px;
+margin-bottom: 15px;}
+
+.modul__description {
+font-size: 30px;
+font-weight: 400;
+letter-spacing: -0.9px;
+margin-bottom: 15px;}
+
+.modul__read-btn {
+font-family: 'Manrope', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+color: var(--Accent, #AD1818);
+border: none;
+background-color: #FFF;
+margin-bottom: 90px;}
+

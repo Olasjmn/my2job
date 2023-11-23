@@ -1,10 +1,55 @@
+html {
+scroll-behavior:smooth;}
+
 body {
 font-family: 'Manrope', sans-serif;
 width: 1400px;
+margin: 0 auto;}
+
+.nav-section {
+	box-sizing: border-box;
+	min-width: 1180px;}
+
+.nav-container {
+max-width: 1180px;
+padding: 0 15px;
 margin: 0 auto;
+border-top: 33px;
+box-sizing: border-box;}
+
+.logo { 
+display: block;
+width: 126px;
+height: 21.42px;
+margin-top: 33px;
 }
 
+.logo-link {
+display: inline-block;
+margin-right: 548px;}
 
+.nav {
+display: inline-block;
+vertical-align: bottom;}
+
+.nav__link {
+font-family: Manrope;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: -0.54px;
+text-align: center;
+height: 25px;
+line-height: 25px;
+color: #121212;
+text-decoration: none;
+margin-right: 60px;}
+
+.nav__link:hover {
+opacity: 0.5;
+text-decoration: underline;}
+
+.nav__link:nth-child(4){
+	margin-right: 0px;}
 
 .container {
 max-width: 1180px;
@@ -18,19 +63,18 @@ font-weight: 400;
 line-height: 60px;
 letter-spacing: -1.8px;
 width: 956px;
-margin: 0 319px 0px 0px;}
+margin: 73px 319px 0px 0px;}
 
 .company-description {
 height: 500px;
 background: url(../img/gray-chair.png) center no-repeat;
 margin: 30px 0px 150px 0px;
 position: relative;
-box-sizing: border-box;
-}
+box-sizing: border-box;}
 
 .company-description p {
 position: absolute;
-bottom: 40px;
+bottom: 42px;
 left: 40px;
 width: 430px;
 color: #FFF;
@@ -38,7 +82,8 @@ font-size: 20px;
 font-weight: 400;
 letter-spacing: -0.6px;
 text-align: left;
-margin: 0 auto;}
+margin: 0 auto;
+line-height: 27px;}
 
 h2 {
 font-size: 18px;
@@ -50,7 +95,7 @@ height: 25px;
 text-align: left;
 margin: 0 1224px 30px 0px;}
 
-.onas {
+.who {
 font-size: 45px;
 font-weight: 400;
 line-height: normal;
@@ -60,7 +105,8 @@ height: 366px;
 margin-bottom: 30px;
 text-align: left;
 margin: 0 224px 30px 0px;
-margin-bottom: 30px;}
+margin-bottom: 30px;
+line-height: 61px;}
 
 .view-services {
 font-family: 'Manrope', sans-serif;
@@ -79,12 +125,8 @@ text-align: center;
 color: white;
 margin: 0 1020px 0px 0px;}
 
-
 .choose-project {
-margin-top: 150px;
-}
-
-
+margin-top: 150px;}
 
 .modul {
 display: block;
@@ -103,7 +145,8 @@ margin-bottom: 15px;}
 font-size: 30px;
 font-weight: 400;
 letter-spacing: -0.9px;
-margin-bottom: 15px;}
+margin-bottom: 15px;
+line-height: 39px;}
 
 .modul__read-btn {
 font-family: 'Manrope', sans-serif;
@@ -116,17 +159,11 @@ border: none;
 background-color: #FFF;
 margin-bottom: 90px;}
 
-
-
 .seecontain {
 width: 1150px;
 height: 153px;
 display: flex;
-margin-bottom: 150px;
-
-
-}
-
+margin-bottom: 150px;}
 
 .see {
 width: 100%;
@@ -140,23 +177,17 @@ text-decoration: none;
 color: red;
 border: 1px solid var(--Accent, #AD1818);
 border-radius: 5px;
-padding: 56px 0;
-}
+padding: 59px 0;}
 
 .see:hover {
 background-color: red;
-color: white;
-}
-
-
+color: white;}
 
 .containertwo {
 max-width: 1400px;
 margin: 0 auto;
-padding: 0 15px;
-box-sizing: border-box;
-}
-
+padding: 0px;
+box-sizing: border-box;}
 
 .boxcolor {
 box-sizing: border-box;
@@ -164,10 +195,8 @@ max-width: 100%;
 height: 1844px;
 margin: 0 auto;
 background-color: black;
-padding-left: 127px;
-}
+padding-left: 127px;}
 
-	
 .textbox {
 font-size: 18px;
 font-weight: 400;
@@ -176,12 +205,10 @@ width: 66px;
 height: 25px;
 text-align: left;
 color: #FFF;
-padding: 151px 0 34px 0;
-}
+padding: 151px 0 4px 0;}
 
 .price {
-margin-bottom: 60px;
-}
+margin-bottom: 66px;}
 
 .pricelist {
 font-family: 'Manrope', sans-serif;
@@ -189,10 +216,116 @@ font-size: 30px;
 font-weight: 400;
 letter-spacing: -0.9px;
 color: #FFF;
-margin: 15px 606px 0px 3px;
-}
+margin: 18px 606px 0px 3px;}
 
 .pricelist:nth-last-child(1){
 width: 661px;
 margin-bottom: 0px;}
 
+.sectiontwo {
+height: 717px;
+background: url(../img/orangediv.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+margin-bottom: 186px;}
+
+.containerthree {
+width: 1180px;
+position: relative;}
+
+.containerthree p {
+font-size: 30px;
+font-weight: 400;
+letter-spacing: -0.9px;
+width: 443px;
+height: 82px;
+position: absolute;
+text-align: left;
+left: 125px;
+margin-top: 574px;
+color: #FFF;
+line-height: 41px;}
+
+.sectioncontact {
+width: 1180px;
+margin: 0 auto;
+position: relative;
+text-align: left;}
+
+.telephone {
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: -2.4px;
+color: #121212;
+text-decoration: none;
+margin-left: 14px;}
+
+.email {
+width: 412px;
+font-size: 60px;
+font-weight: 400;
+letter-spacing: -1.8px; 
+opacity: 0.5;
+text-decoration: none;
+border-bottom: 3px solid black;
+color: rgb(49, 49, 49);}
+
+.gmail {
+margin-top: 28px;
+margin-left: 15px;}
+
+.contacttext {
+font-size: 18px;
+font-weight: 400;
+letter-spacing: -0.54px;
+bottom: 32px;
+margin-left: 12px;}
+
+.contacttext::before {
+content:"";
+background-image: url(/modul-1/img/phone.png);
+width: 24px;
+height: 24px;
+position: absolute;
+display: block;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+margin-top: -37px;}
+
+.footer {
+display: inline-block;
+box-sizing: border-box;
+width: 1400px;
+height: 230px;
+background-color: black;
+text-align: center;
+margin-top: 160px;}
+
+.footerlink {
+font-family: Manrope;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: -0.54px;
+text-decoration: none;
+color: #FFF;
+text-decoration: none;
+margin-right: 64px;
+margin-left: -12px;}
+
+.footerlink:nth-child(4){
+margin-right: 0px;}
+
+.flink {
+margin-top: 66px;}
+
+
+.fottertext {
+font-size: 20px;
+font-weight: 400;
+letter-spacing: -0.6px;
+color: #FFFFFF;
+opacity: 0.5;
+padding-top: 95px;}
